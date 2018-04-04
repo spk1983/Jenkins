@@ -1,0 +1,9 @@
+---
+applications:
+ - name: spring-boot-web-jsp
+   memory: 1G
+   path: target/spring-boot-web-jsp-1.0.war
+   instances: 1
+   env:
+    SPRING_PROFILES_ACTIVE: cloud
+   timeout: 179 			
