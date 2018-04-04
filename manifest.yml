@@ -1,6 +1,6 @@
 ---
 applications:
- - name: spring-boot-web-jsp
+ - name: SpringBootWebApplication
    memory: 1G
    path: target/spring-boot-web-jsp-1.0.war
    instances: 1
